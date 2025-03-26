@@ -5,18 +5,122 @@ ESP32-C6-WROOM-1 is a general-purpose Wi-Fi, IEEE 802.15.4, and Bluetooth LE
 module. The rich set of peripherals and high performance make the module an 
 ideal choice for smart homes, industrial automation, health care, consumer electronics, etc.
 
-##### CPU and On-Chip Memory
-    • ESP32-C6 embedded, 32-bit RISC-V single-core microprocessor, up to 160 MHz
-    • 320 KB ROM
-    • 512 KB SRAM
-    • 16 KB Low-power (LP) SRAM
-
 #### Absolute Maximum Ratings
 
 | Symbol  | Parameter            | Min  | Max | Unit |
 | ------- | -------------------- | ---- | --- | ---- |
 | VDD33   | Power supply voltage | –0.3 | 3.6 | V    |
 | T STORE | Storage temperature  | –40  | 105 | °C   |
+
+
+
+##### CPU and On-Chip Memory
+    • ESP32-C6 embedded, 32-bit RISC-V single-core microprocessor, up to 160 MHz
+    • 320 KB ROM
+    • 512 KB SRAM
+    • 16 KB Low-power (LP) SRAM
+
+#### W25Q512JVEIQ
+
+External NOR flash memory offering high-density storage.
+
+Specifications:
+
+• Capacity: 512 Mbit (64 MB)
+• Interface: SPI (Serial Peripheral Interface)
+• Operating Voltage: 3.3 V
+• Usage: Firmware, configuration data, graphical assets storage
+
+#### MCP73831
+
+Li-Po battery charger controller for efficient battery management.
+
+Specifications:
+
+• Charge Current: Programmable up to ~500 mA
+• Charge Voltage: Fixed 4.2 V
+• Input Voltage: 5 V (typically USB)
+• Features: Thermal protection, automatic charge termination, LED charge status
+
+#### XC6220A331MR-G
+
+Low Dropout Voltage Regulator ensuring stable power.
+
+Specifications:
+
+• Output Voltage: 3.3 V
+• Input Voltage Range: up to 6.0 V
+• Current Rating: up to 700 mA
+
+#### MAX17048G+T10
+
+Battery Fuel Gauge IC for precise battery monitoring.
+
+Specifications:
+
+• Communication Interface: I²C
+• Voltage Measurement Accuracy: ±7.5 mV
+• Typical Current Consumption: 23 µA
+• Usage: State-of-charge monitoring, battery life estimation
+
+#### BME688
+
+Advanced environmental sensor providing multiple parameters.
+
+Specifications:
+
+• Measurements: Temperature, Humidity, Pressure, VOC gas sensing
+• Communication Interface: I²C
+• Operating Voltage: 1.7 V – 3.6 V
+
+#### DS3231SN
+
+Highly accurate Real-Time Clock (RTC) module.
+
+Specifications:
+
+• Accuracy: ±2 ppm (~1 min/year)
+• Communication Interface: I²C
+• Operating Voltage: 2.3 V – 5.5 V
+• Features: Integrated battery backup for uninterrupted timekeeping
+
+#### FH34SRJ-24S-0.5SH(99)
+
+FFC connector for reliable display connection.
+
+Specifications:
+
+• Pins: 24
+• Pitch: 0.5 mm
+• Mount Type: Surface Mount (SMD)
+• Usage: Connecting E-paper displays
+
+#### MBR0530
+
+Schottky diode with low forward voltage.
+
+Specifications:
+
+• Maximum Current: 0.5 A
+• Forward Voltage Drop: ~0.3-0.4 V
+• Application: Reverse voltage protection, efficient switching
+
+#### SI1308EDL-T1-GE3
+
+Compact N-channel MOSFET for switching applications.
+
+Specifications:
+
+• Voltage Rating: 20 V
+• Current Rating: ~2 A
+• Usage: Switching operations in display driver circuits
+
+#### CPH3225A
+
+Supercapacitor designed for temporary backup power.
+
+
+## Pins
 
 #### SD Card (SPI)
     * pin 7 -> pin 27 (MISO)
