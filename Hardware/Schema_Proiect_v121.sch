@@ -2760,7 +2760,7 @@ Boot / IO Button</text>
 <text x="-66.04" y="-7.62" size="3.81" layer="95">Environmental Sensor BME688</text>
 <wire x1="-102.598915625" y1="-2.45264375" x2="-102.598915625" y2="-77.8817375" width="0.1524" layer="95"/>
 <text x="-101.6" y="-7.62" size="3.81" layer="95">EPD Power</text>
-<text x="-187.96" y="-7.62" size="3.81" layer="95">E-Paper Display Header</text>
+<text x="-190.5" y="-5.08" size="1.9304" layer="95">E-Paper Display Header</text>
 <text x="149.86" y="-139.7" size="2.1844" layer="94">3/20/2025 12:29 PM</text>
 </plain>
 <instances>
